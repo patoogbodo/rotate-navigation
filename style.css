@@ -3,15 +3,15 @@
 }
 
 body{
-  background-color: aqua;
-  color: red;
+  background-color: #161414;
+  color: #222;
   margin: 0;
   overflow-x: hidden;
   font-family: 'Courier New', Courier, monospace;
 }
 
 .container{
-  background-color: blue;
+  background-color:aqua;
   transform-origin: top left;
   transition: transform 0.5s linear;
   width: 100vw;
@@ -20,11 +20,11 @@ body{
   box-shadow: -5px 5px 4px rgba(0, 0, 0, .7);
 }
 
-.container.show-nav{
-  transform: rotate(-20deg);
+.container.show-nav {
+  transform:rotate(-20deg);
 }
 
-.circle-container{
+.circle-container {
   position: fixed;
   top: -100px;
   left: -100px;
@@ -33,7 +33,7 @@ body{
 .circle{
   height: 210px;
   width: 210px;
-  background-color: blueviolet;
+  background-color: black;
   border-radius: 100%;
   position: relative;
   transition:transform 0.5s linear ;
@@ -112,6 +112,11 @@ nav ul li + li + li {
   transform:translateX(-200%);
 }
 
+.content {
+  max-width: 1000px;
+  margin: 40px auto;
+}
+
 .content h1{
   font-size: 90px;
   margin: 0;
@@ -134,7 +139,6 @@ nav ul li + li + li {
 
 .content img{
   max-height: 50%;
-  max-width: 100%;
+  max-width: 90%;
   border-radius: 2%;
-  border: 15px solid #6640ff;
-}
+  }
